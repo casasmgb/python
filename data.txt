@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><XML><NumeroCuenta>10000004675952</NumeroCuenta><Cantidad>30</Cantidad><CodUninet>2248164</CodUninet><IP>100.168.1.1</IP><Institucion>ADSIB</Institucion><Metodo>getExtracto</Metodo><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>j9hYVCW7lOvax2fOTVUapxXW3C3dxjmsYFigqt+t7gs=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+fddAgBhD/YG9PYOq9NUCuwVKU5sxZJd3qFnCCLXd3b4+DSusBiE5wpC7OIcBQ21awNTdZQpWdgOTYyeH7xIwPyPQ/Y+BI0TCv46ha++/B6uJNIkBSO3YxUcN0bIwGuvSwNpcJzYKtksddhEj/Uo2cP/dbXwZrZRlj9BUZZZOL38=
+</SignatureValue>
+</Signature></XML>
